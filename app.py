@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
-model = load_model("catsdogs.h5")
+model = load_model("model/catsdogs.h5")
 
 st.title("Dog vs Cat Classifier ")
 
